@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Handlee&family=Indie+Flower&family=Luckiest+Guy&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(45deg, #e619b9 0%, #6d0040 100%);
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.849);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.623);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav ul{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.lora {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.mae {
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 4px;
+    font-size: 30px;
+    color: #ea4cc8;
+}
+
+.parent {
+    font-family: 'Handlee', cursive;
+    padding: 0 20px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.link:hover{
+        color: #ea4cc8;
+}
+
+.intro {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    color: #571144;
+    padding-left: 50px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+    font-size: 50px;
+}
+
+.contact {
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    bottom: 200px;
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    margin: 10px;
+    font-size: 100px;
+}
+
+.info {
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    bottom: 160px;
+    text-align: center;    
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.info1 {
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    bottom: 160px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-left: 300px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.hi {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 100px;
+}
+
+.dropdown {
+    font-family: 'Handlee', cursive;
+    padding: 0 20px;
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+}
+
+.dropdown .dropbtn {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    cursor:pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    min-width: 200px;
+    background-color:#ea4cc8;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    text-decoration: none;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    display: block;
+    color: #ea4cc8;
+    background-color: #571144;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
